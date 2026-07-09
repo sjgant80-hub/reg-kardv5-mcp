@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/reg-kardv5-mcp",
+  "version": "1.0.0",
+  "description": "reg-kardv5 MCP server · stdio wrapper around @ai-native-solutions/reg-kardv5-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "reg-kardv5-mcp": "src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["reg-kardv5", "mcp", "model-context-protocol", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/reg-kardv5-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/reg-kardv5-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
